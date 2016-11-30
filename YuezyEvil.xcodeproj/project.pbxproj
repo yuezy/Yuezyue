@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14B666D746074EB140EC4F89 /* Pods_YuezyEvil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF480E98EED28FD9D183020F /* Pods_YuezyEvil.framework */; };
+		87AC37181DEEC75B00E3047B /* UITabBarItem+Universal.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AC37171DEEC75B00E3047B /* UITabBarItem+Universal.m */; };
+		87C860431DEEAC290031726F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C860421DEEAC290031726F /* main.m */; };
+		87C860461DEEAC290031726F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C860451DEEAC290031726F /* AppDelegate.m */; };
+		87C860491DEEAC290031726F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C860481DEEAC290031726F /* ViewController.m */; };
+		87C8604C1DEEAC290031726F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C8604A1DEEAC290031726F /* Main.storyboard */; };
+		87C8604E1DEEAC290031726F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C8604D1DEEAC290031726F /* Assets.xcassets */; };
+		87C860511DEEAC290031726F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C8604F1DEEAC290031726F /* LaunchScreen.storyboard */; };
+		87C860651DEEBACE0031726F /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C860601DEEBACE0031726F /* BaseNavigationViewController.m */; };
+		87C860661DEEBACE0031726F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C860621DEEBACE0031726F /* BaseViewController.m */; };
+		87C860671DEEBACE0031726F /* EmptyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C860641DEEBACE0031726F /* EmptyViewController.m */; };
+		87C860701DEEC4540031726F /* NavBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C8606F1DEEC4540031726F /* NavBarButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87AC37161DEEC75B00E3047B /* UITabBarItem+Universal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Universal.h"; sourceTree = "<group>"; };
+		87AC37171DEEC75B00E3047B /* UITabBarItem+Universal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+Universal.m"; sourceTree = "<group>"; };
+		87C8603E1DEEAC290031726F /* YuezyEvil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuezyEvil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C860421DEEAC290031726F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87C860441DEEAC290031726F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87C860451DEEAC290031726F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87C860471DEEAC290031726F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		87C860481DEEAC290031726F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		87C8604B1DEEAC290031726F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87C8604D1DEEAC290031726F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87C860501DEEAC290031726F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87C860521DEEAC290031726F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C8605C1DEEB0270031726F /* CommonHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonHeader.h; sourceTree = "<group>"; };
+		87C8605F1DEEBACE0031726F /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		87C860601DEEBACE0031726F /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		87C860611DEEBACE0031726F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		87C860621DEEBACE0031726F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		87C860631DEEBACE0031726F /* EmptyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyViewController.h; sourceTree = "<group>"; };
+		87C860641DEEBACE0031726F /* EmptyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyViewController.m; sourceTree = "<group>"; };
+		87C8606E1DEEC4540031726F /* NavBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavBarButton.h; sourceTree = "<group>"; };
+		87C8606F1DEEC4540031726F /* NavBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavBarButton.m; sourceTree = "<group>"; };
+		9FC934278DFDEB87616E10C7 /* Pods-YuezyEvil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuezyEvil.release.xcconfig"; path = "Pods/Target Support Files/Pods-YuezyEvil/Pods-YuezyEvil.release.xcconfig"; sourceTree = "<group>"; };
+		BBBAB4F2DC63615E3AF089AF /* Pods-YuezyEvil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuezyEvil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YuezyEvil/Pods-YuezyEvil.debug.xcconfig"; sourceTree = "<group>"; };
+		FF480E98EED28FD9D183020F /* Pods_YuezyEvil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YuezyEvil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87C8603B1DEEAC290031726F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B666D746074EB140EC4F89 /* Pods_YuezyEvil.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0879B2C133F37E5DDD15B17A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBBAB4F2DC63615E3AF089AF /* Pods-YuezyEvil.debug.xcconfig */,
+				9FC934278DFDEB87616E10C7 /* Pods-YuezyEvil.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87AC37141DEEC75B00E3047B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				87AC37151DEEC75B00E3047B /* UITabBarItem+Universal */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		87AC37151DEEC75B00E3047B /* UITabBarItem+Universal */ = {
+			isa = PBXGroup;
+			children = (
+				87AC37161DEEC75B00E3047B /* UITabBarItem+Universal.h */,
+				87AC37171DEEC75B00E3047B /* UITabBarItem+Universal.m */,
+			);
+			path = "UITabBarItem+Universal";
+			sourceTree = "<group>";
+		};
+		87C860351DEEAC290031726F = {
+			isa = PBXGroup;
+			children = (
+				87C860401DEEAC290031726F /* YuezyEvil */,
+				87C8603F1DEEAC290031726F /* Products */,
+				0879B2C133F37E5DDD15B17A /* Pods */,
+				EDAAB77A462F82B4D227EAC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87C8603F1DEEAC290031726F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87C8603E1DEEAC290031726F /* YuezyEvil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87C860401DEEAC290031726F /* YuezyEvil */ = {
+			isa = PBXGroup;
+			children = (
+				87AC37141DEEC75B00E3047B /* Utility */,
+				87C860681DEEC3DF0031726F /* View */,
+				87C8605D1DEEBAC80031726F /*  ViewController */,
+				87C860441DEEAC290031726F /* AppDelegate.h */,
+				87C860451DEEAC290031726F /* AppDelegate.m */,
+				87C860471DEEAC290031726F /* ViewController.h */,
+				87C860481DEEAC290031726F /* ViewController.m */,
+				87C8604A1DEEAC290031726F /* Main.storyboard */,
+				87C8604D1DEEAC290031726F /* Assets.xcassets */,
+				87C8604F1DEEAC290031726F /* LaunchScreen.storyboard */,
+				87C860521DEEAC290031726F /* Info.plist */,
+				87C860411DEEAC290031726F /* Supporting Files */,
+				87C8605C1DEEB0270031726F /* CommonHeader.h */,
+			);
+			path = YuezyEvil;
+			sourceTree = "<group>";
+		};
+		87C860411DEEAC290031726F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87C860421DEEAC290031726F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87C8605D1DEEBAC80031726F /*  ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				87C8605E1DEEBACE0031726F /* Base */,
+			);
+			path = " ViewController";
+			sourceTree = "<group>";
+		};
+		87C8605E1DEEBACE0031726F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				87C8605F1DEEBACE0031726F /* BaseNavigationViewController.h */,
+				87C860601DEEBACE0031726F /* BaseNavigationViewController.m */,
+				87C860611DEEBACE0031726F /* BaseViewController.h */,
+				87C860621DEEBACE0031726F /* BaseViewController.m */,
+				87C860631DEEBACE0031726F /* EmptyViewController.h */,
+				87C860641DEEBACE0031726F /* EmptyViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		87C860681DEEC3DF0031726F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				87C8606D1DEEC4540031726F /* NavBarButton */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		87C8606D1DEEC4540031726F /* NavBarButton */ = {
+			isa = PBXGroup;
+			children = (
+				87C8606E1DEEC4540031726F /* NavBarButton.h */,
+				87C8606F1DEEC4540031726F /* NavBarButton.m */,
+			);
+			name = NavBarButton;
+			path = View/NavBarButton;
+			sourceTree = "<group>";
+		};
+		EDAAB77A462F82B4D227EAC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF480E98EED28FD9D183020F /* Pods_YuezyEvil.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87C8603D1DEEAC290031726F /* YuezyEvil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C860551DEEAC290031726F /* Build configuration list for PBXNativeTarget "YuezyEvil" */;
+			buildPhases = (
+				41DC8E6627428660BEED7ED8 /* [CP] Check Pods Manifest.lock */,
+				87C8603A1DEEAC290031726F /* Sources */,
+				87C8603B1DEEAC290031726F /* Frameworks */,
+				87C8603C1DEEAC290031726F /* Resources */,
+				277A92E5757628BE7019C43F /* [CP] Embed Pods Frameworks */,
+				87953DDAE91A4C4019690C73 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YuezyEvil;
+			productName = YuezyEvil;
+			productReference = 87C8603E1DEEAC290031726F /* YuezyEvil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87C860361DEEAC290031726F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yuezy;
+				TargetAttributes = {
+					87C8603D1DEEAC290031726F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 87C860391DEEAC290031726F /* Build configuration list for PBXProject "YuezyEvil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87C860351DEEAC290031726F;
+			productRefGroup = 87C8603F1DEEAC290031726F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87C8603D1DEEAC290031726F /* YuezyEvil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87C8603C1DEEAC290031726F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C860511DEEAC290031726F /* LaunchScreen.storyboard in Resources */,
+				87C8604E1DEEAC290031726F /* Assets.xcassets in Resources */,
+				87C8604C1DEEAC290031726F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		277A92E5757628BE7019C43F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YuezyEvil/Pods-YuezyEvil-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41DC8E6627428660BEED7ED8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87953DDAE91A4C4019690C73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YuezyEvil/Pods-YuezyEvil-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87C8603A1DEEAC290031726F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AC37181DEEC75B00E3047B /* UITabBarItem+Universal.m in Sources */,
+				87C860491DEEAC290031726F /* ViewController.m in Sources */,
+				87C860661DEEBACE0031726F /* BaseViewController.m in Sources */,
+				87C860461DEEAC290031726F /* AppDelegate.m in Sources */,
+				87C860431DEEAC290031726F /* main.m in Sources */,
+				87C860671DEEBACE0031726F /* EmptyViewController.m in Sources */,
+				87C860651DEEBACE0031726F /* BaseNavigationViewController.m in Sources */,
+				87C860701DEEC4540031726F /* NavBarButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87C8604A1DEEAC290031726F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87C8604B1DEEAC290031726F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87C8604F1DEEAC290031726F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87C860501DEEAC290031726F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87C860531DEEAC290031726F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87C860541DEEAC290031726F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87C860561DEEAC290031726F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBAB4F2DC63615E3AF089AF /* Pods-YuezyEvil.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YuezyEvil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuezy.YuezyEvil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87C860571DEEAC290031726F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FC934278DFDEB87616E10C7 /* Pods-YuezyEvil.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YuezyEvil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuezy.YuezyEvil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87C860391DEEAC290031726F /* Build configuration list for PBXProject "YuezyEvil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C860531DEEAC290031726F /* Debug */,
+				87C860541DEEAC290031726F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C860551DEEAC290031726F /* Build configuration list for PBXNativeTarget "YuezyEvil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C860561DEEAC290031726F /* Debug */,
+				87C860571DEEAC290031726F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87C860361DEEAC290031726F /* Project object */;
+}
